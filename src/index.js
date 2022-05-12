@@ -20,3 +20,4 @@ reportWebVitals();
 
 //Установим пакетный менеджер yarn
 //npm i --global yarn
+//yarn add gh-pages

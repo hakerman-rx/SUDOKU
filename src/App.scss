@@ -1,0 +1,23 @@
+//Перименные
+$bgWrap:rgb(238, 204, 204);
+
+
+//микшины
+@mixin d-flex {
+    display: flex;
+}
+@mixin wrap {
+    @include d-flex();
+    justify-content: center;
+    align-items: center;
+}
+
+
+.App {
+    @include wrap();
+    background-color: $bgWrap;
+    min-height: 100vh;
+    h1{
+        color: rgb(207, 116, 116);
+    }
+} 

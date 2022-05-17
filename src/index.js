@@ -12,7 +12,7 @@ root.render(
 );
 reportWebVitals();
 //Создать React app
-//Node command prompt =>
+//Node command prompt => открыть
 //npx create-react-app название приложения
 //cd название приложения 
 //запускаем приложение
@@ -21,3 +21,6 @@ reportWebVitals();
 //Установим пакетный менеджер yarn
 //npm i --global yarn
 //yarn add gh-pages
+
+//установить пакет Sass 
+//yarn add node-sass@6.0
